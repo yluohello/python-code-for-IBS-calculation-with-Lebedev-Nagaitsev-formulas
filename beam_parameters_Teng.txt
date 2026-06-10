@@ -1,0 +1,12 @@
+m_h: 197                 # Hadron mass (relative to proton mass)
+z_charge: 79             # Hadron charge (relative to proton charge)
+gamma: 33.508            # total Energy per hadron (eV)
+bunch_pop: 0.6857e9      # Hadron bunch population
+circum: 3833.8451        # Ring circumference (m)
+rms_delta: 1.33569e-3    # Hadron fractional momentum spread
+rms_z:  1.526            # Hadron bunch length (m)
+emit_1: 9.07743e-08      # emittance of eigenmode I  (m)
+emit_2: 9.152e-09        # emittance of eigenmode II (m)
+num_time_steps: 6       # Number of calcualtion time steps
+turns_per_step: 782500   # Number of turns per simulated time-step
+full_ring_optics_file: ibs_twiss_input_Teng.txt  # File of lattice parameters
