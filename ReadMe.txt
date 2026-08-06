@@ -12,3 +12,6 @@ Here is a  python code to calculate IBS growth time in a storage ring,  without 
 4. The output file:
 The output will be printed on screen and also in a file “output.dat”.  Each column lists:
 time(h) emit1(m)  emit2(m)  sigmas(m)  sigmap  tao1(min)  tao2(min)  tao3(min)
+
+5. If using Teng's coupling parameters, use code cal_ibs_coupling_Teng.py, the input files are:  beam_parameters_Teng.txt and ibs_twiss_input_Teng.txt
+
